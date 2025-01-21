@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Generator</title>
+</head>
+<body>
+ <h1>Mallareddy College Text Generator</h1>
+ <p>Enter a prompt below to generate text:</p>
+ <!--Simplified from a submitted form-->
+ <form action ="/generate"method="POST">
+    <label for ="prompt">Prompt:</label><br>
+    <input type="text" id="prompt" name="prompt" placeholder="Enter a prompt" required><br><br>
+    <button type="submit">Genetate</button>
+ </form>
+ <hr>
+ <!-- Display result if available -->
+ {% if result %}
+ <h2>Generated Text:</h2>
+ <p>{{ result }}</p>
+ {% endif %}
+ </body>
+</html>

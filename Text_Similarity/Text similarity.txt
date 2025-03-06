@@ -1,0 +1,39 @@
+Text similarity:
+____________________
+
+1.cosine  Similarity
+2.jaccard  Similarity
+3.levenshtein  Similarity
+4.word Embeddings  Similarity
+5.TF_IDF  Similarity
+6.Sentence Transformers Similarity
+
+
+USE CASE:
+___________
+
+check simple word overlap				-Jaccard sim
+
+Delete minor string difference(typos)			-Levenshtein Distance
+
+compare docs based on words				-Cosine similarity +TF-IDF
+
+compare meanings of individual words			-Word Embeddings(Word2Vec/GloVe)
+
+compare full sentence or paragraphs by meaning		-Sentence Transformers(BERT)
+
+UTILIZATION:
+____________
+
+
+Duplicate question deletion		-Sentence Transformers(BERT)
+
+Plagiarism check			-Cosine similarity +TF-IDF
+
+Spell Check				-Levenshtein Distance
+
+Keyword-based similarity		-TF-IDF or Jaccard sim 
+
+Semantic Search				-Word Embeddings or Sentence Transformers(BERT)
+
+Synonyms Identification			-Word Embeddings

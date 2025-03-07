@@ -1,0 +1,19 @@
+WEB SCRAPING:
+_____________
+
+Automated extraction of data from website; website content is first fetched(usually using HTTP) and then parsed to extract specific information.
+
+BEAUTIFUL SOUP:
+_______________
+
+Python package for parsing HTML and XML, including those with malformed markup such as missing tags.
+
+why we use this than reg expressions:
+
+-MIIGATES WKNESSES OF REG EXP
+
+SCRAPY:
+______
+
+-PRODUCTION DRAGE QUALITY-EXTRACTING THE IMPORTANT INFORMATION
+
